@@ -196,6 +196,8 @@
   gap: 1vh;
 }
 .secondSec span p {
+  border-bottom: 2px solid black;
+
   font-size: 15px;
   font-weight: 100;
   color: rgb(54, 52, 52);
@@ -318,4 +320,11 @@
 
 .dark-color {
   color: #000;
+}
+
+.shadow {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+  border-radius: 15px;
 }
